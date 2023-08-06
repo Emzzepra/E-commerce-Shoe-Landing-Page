@@ -7,13 +7,16 @@
      <title>FARADAY.SHOES</title>
      <link rel="stylesheet" href="/dist/output.css" />
      <link rel="stylesheet" href="/src/input.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
      <div>
           <div class="bg-primary">
-               <h2 class="flex justify-center text-white py-3 text-xs font-normal tracking-widest space-x-10">
+               <h2
+                    class="flex justify-center text-white py-3 text-2xl font-normal tracking-widest space-x-10 lg:text-xs">
                     FREE SHIPPING WORLDWIDE
                </h2>
           </div>
@@ -21,10 +24,11 @@
           <div class="bg-cover bg-center bg-no-repeat bg-opacity-20 pl-6 py-5"
                style="background-image: url(/Img/Shoes2.png)">
 
-               <div class="flex items-center">
-                    <h1 class="text-white tracking-widest text-3xl lg:text-2xl px-4">FARADAY.SHOES</h1>
+               <div class="flex items-center relative">
+                    <h1 class="text-white tracking-widest text-3xl lg:text-xl px-4">FARADAY.SHOES</h1>
+                    <div class="hidden lg:flex relative top-[-0.5rem] text-white px-4">_____</div>
 
-                    <svg class="text-white w-6 ml-auto mr-20 cursor-pointer lg:hidden"
+                    <svg class="text-white w-6 absolute right-20 cursor-pointer lg:hidden"
                          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                          stroke="currentColor" className="w-6 h-6">
                          <path strokeLinecap="round" strokeLinejoin="round"
@@ -32,64 +36,81 @@
                     </svg>
 
 
-                    <ul class="hidden lg:flex text-white">
 
-                         <li class="px-3">
 
-                              <a href="">SHOP</a>
-                         </li>
+                    <div class="flex">
 
-                         <li class="px-3">
+                         <ul class="hidden lg:flex text-white text-base gap-[15.2px]">
 
-                              <a href="">GUARANTEE</a>
-                         </li>
+                              <li>
 
-                         <li class="px-3">
+                                   <a href="">SHOP</a>
+                              </li>
 
-                              <a href="">SHIPPING & RETURNS</a>
-                         </li>
+                              <li>
 
-                         <li class="px-3">
-                              <a href="">BLOG</a>
-                         </li>
+                                   <a href="">GUARANTEE</a>
+                              </li>
 
-                         <li class="px-3">
-                              <a href="">ABOUT</a>
-                         </li>
+                              <li>
 
-                         <li class="px-8">
+                                   <a href="">SHIPPING & RETURNS</a>
+                              </li>
 
-                              <a class="flex mr-auto" href=""><svg class="w-6" xmlns="http://www.w3.org/2000/svg"
-                                        fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
-                                        className="w-6 h-6">
-                                        <path strokeLinecap="round" strokeLinejoin="round"
-                                             d="M3.75 9h16.5m-16.5 6.75h16.5" />
-                                   </svg>
-                                   <span class="px-2">MENU</span></a>
-                         </li>
+                              <li>
+                                   <a href="">BLOG</a>
+                              </li>
 
-                         <li class="px-4">
+                              <li>
+                                   <a href="">ABOUT</a>
+                              </li>
 
-                              <a class="flex" href=""><svg class="w-6 text-black" xmlns="http://www.w3.org/2000/svg"
-                                        fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
-                                        className="w-6 h-6">
-                                        <path strokeLinecap="round" strokeLinejoin="round"
-                                             d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                                   </svg>
-                                   <span class="px-2">CART</span></a>
-                         </li>
+                         </ul>
+
+                    </div>
+
+                    <div class="flex ml-auto">
+                         <ul class="hidden lg:flex text-white text-base">
+
+                              <li class="px-4">
+
+                                   <a class="flex" href=""><svg class="w-6" xmlns="http://www.w3.org/2000/svg"
+                                             fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                                             className="w-6 h-6">
+                                             <path strokeLinecap="round" strokeLinejoin="round"
+                                                  d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                                        </svg>
+                                        <span class="px-2">MENU</span></a>
+                              </li>
+
+                              <li class="px-4">
+
+                                   <a class="flex" href=""><svg class="w-6 text-black"
+                                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                             strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                             <path strokeLinecap="round" strokeLinejoin="round"
+                                                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                                        </svg>
+                                        <span class="px-2">CART</span></a>
+                              </li>
+                         </ul>
+                    </div>
 
                     </ul>
                </div>
 
                <div class="px-4 py-2 w-50 lg:px-16 relative mb-16">
 
-                    <h3 class="text-slate-400 font-semibold text-xs tracking-widest pt-4 lg:px-16"> WEBFLOW TEMPLATE</h3>
-                    <h1 class="text-5xl font-semibold tracking-widest text-white text-opacity-60 pt-3">DESIGNED FOR</h1>
-                    <h1 class="text-5xl font-semibold tracking-widest text-white text-opacity-60 pt-3">THE FREEDOM</h1>
-                    <h1 class="text-5xl font-semibold tracking-widest text-white text-opacity-60 pt-3">TO WALK</h1>
+                    <div class="hidden lg:flex absolute top-[0.5rem] left-14 text-white px-[12px]">______</div>
+                    <h3 class="text-slate-400 font-semibold text-xs tracking-widest pt-4 lg:px-16"> WEBFLOW TEMPLATE
+                    </h3>
+                    <h1 class="text-5xl font-semibold tracking-[1.2rem] text-white text-opacity-60 pt-3">DESIGNED FOR
+                    </h1>
+                    <h1 class="text-5xl font-semibold tracking-[1.2rem] text-white text-opacity-60 pt-3">THE FREEDOM
+                    </h1>
+                    <h1 class="text-5xl font-semibold tracking-[1.2rem] text-white text-opacity-60 pt-3">TO WALK</h1>
 
-                    
+
 
                     <p class="py-8 text-white text-opacity-75">Duis curcus, mi quis viverra ornare, eros dolor
                          interdum nulla, ut commodo diam libero <br> vitae erat. Aenean faucibus nibh et justo
@@ -97,17 +118,48 @@
 
 
                     <button
-                         class="rounded-md  uppercase px-3 py-2 text-xs font-semibold cursor-pointer tracking-wider bg-white bg-opacity-30 text-white text-opacity-80 lg:absolute right-8 top-64 mr-5">SHOP
+                         class="rounded-sm  uppercase px-8 py-3 text-sm font-normal cursor-pointer tracking-wider bg-white bg-opacity-30 text-black hover:shadow-md lg:absolute right-20 top-60 mr-2">SHOP
                          NOW</button>
 
-                    
+
                </div>
           </div>
      </div>
 
      <!-- Bestsellers Section -->
-     <section>
-          Bestsellers
+     <section class="mt-20">
+          <div class="w-full flex flex-col items-center mx-auto justify-between gap-10">
+               <div class=" w-full md:w-[70%] text-xl">
+                    <div class="relative text-gray-400 flex gap-3 items-center justify-center w-full uppercase">
+                         <div class="relative top-[-0.5rem]">____</div>
+                         <h3 class="text-gray-800">Our Bestsellers</h3>
+                         <div class="relative top-[-0.5rem]">____</div>
+                    </div>
+
+                    <h2 class="text-center w-[90%] sm:w-full mx-auto mt-4 font-semibold text-3xl">A difference you can
+                         feel in your sole</h2>
+                    <p class="w-[90%] mx-auto mt-3 font-medium"">Nam imperdiet arcu velit, ut maximus mauris finibus ac. Proin non fringilla sapien. Pellentesque euismod a ligula vitae bibendum. Nulla facilisi. Praesent sed tortor Donec mollis ultrices dui, eu blandit dolor dapibus nec.</p>
+              </div>
+
+               <div class=" flex flex-col gap-16 w-full py-10 justify-center items-center">
+                    <div class=" md:grid grid-cols-2 mt-10 place-items-center">
+                         <div class="mb-10">
+                              <img class="w-full md:w-[70%]" src="/Img/tops.jpeg" alt="">
+                              <p class="py-2">FS NIKE Top Sports</p><span>$ 99.00 USD</span>
+                         </div>
+                         <div>
+                              <img class="w-full md:w-[70%]" src="/Img/kicks.jpeg" alt="">
+                         </div>
+                    </div>
+
+                    <div class="md:grid grid-cols-2 place-items-center">
+                         <img class="w-full md:w-[70%]" src="/Img/brogues.png" alt="">
+                         <img class="w-full md:w-[70%]" src="/Img/Vans.webp" alt="">
+                    </div>
+               </div>
+
+
+          </div>
      </section>
 
      <!-- SpringSale Section -->
@@ -121,21 +173,28 @@
      </section>
 
      <!-- Features Section -->
-     <section class="feature mt-20">
+     <section class=" feature mt-20">
           <div class="w-full mx-auto flex flex-col gap-10 items-center justify-between">
-              <div class="w-full md:w-[70%]">
+               <div class="w-full md:w-[70%]">
                     <div class="relative text-gray-400 flex gap-3 items-center justify-center w-full">
                          <div class="relative top-[-0.5rem]">____</div>
                          <h3 class="text-gray-800">FEATURES</h3>
                          <div class="relative top-[-0.5rem]">____</div>
                     </div>
-                    <h2 class="w-[90%] sm:w-full mx-auto mt-3 font-semibold text-3xl text-center">Quality Begins on the inside</h2>
-                    <p class="w-[90%] mx-auto mt-3 font-medium">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, excepturi! Beatae explicabo illum ullam numquam deleniti. Porro, nostrum eius. Asperiores neque fugit deleniti nostrum repellendus nemo quo quae rerum labore.</p>
-              </div>
+                    <h2 class="w-[90%] sm:w-full mx-auto mt-3 font-semibold text-3xl text-center">Quality
+                         Begins on the
+                         inside</h2>
+                    <p class="w-[90%] mx-auto mt-4 font-medium">Lorem ipsum dolor sit amet consectetur,
+                         adipisicing
+                         elit. Recusandae, excepturi! Beatae explicabo illum ullam numquam deleniti. Porro,
+                         nostrum
+                         eius. Asperiores neque fugit deleniti nostrum repellendus nemo quo quae rerum labore.
+                    </p>
+               </div>
 
-              <div class="relative flex flex-col gap-2 w-full md:w-[70%] py-20">
+               <div class="relative flex flex-col gap-2 w-full md:w-[70%] py-20">
                     <div></div>
-              </div> 
+               </div>
           </div>
      </section>
 
@@ -153,7 +212,7 @@
      <section>
           Footer
      </section>
-     
+
 </body>
 
 </html>
