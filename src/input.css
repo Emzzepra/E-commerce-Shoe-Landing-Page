@@ -1,7 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/iqos');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 *{
     font-family: 'IQOS', sans-serif; 
 }
