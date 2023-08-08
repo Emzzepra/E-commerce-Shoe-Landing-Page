@@ -21,14 +21,13 @@
                </h2>
           </div>
 
-          <div class="bg-cover bg-center bg-no-repeat bg-opacity-20 pl-6 py-5"
-               style="background-image: url(/Img/Shoes2.png)">
+          <div class="bg-cover bg-center bg-no-repeat pl-6 py-5 " style="background-image: url(/Img/Shoes2.png)">
 
-               <div class="flex items-center relative">
+               <div class="flex items-center relative md:py-3">
                     <h1 class="text-white tracking-widest text-2xl lg:text-xl px-4">FARADAY.SHOES</h1>
                     <div class="hidden lg:flex relative top-[-0.5rem] text-white px-6">_____</div>
 
-                    <svg class="text-white w-6 absolute right-10 cursor-pointer lg:hidden"
+                    <svg class="text-white w-6 absolute right-10 cursor-pointer lg:hidden" id="bar"
                          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                          stroke="currentColor" className="w-6 h-6">
                          <path strokeLinecap="round" strokeLinejoin="round"
@@ -40,7 +39,7 @@
 
                     <div class="flex">
 
-                         <ul class="hidden lg:flex text-white text-base gap-[30px]">
+                         <ul class="hidden lg:flex text-white text-base gap-[30px]" id="menu">
 
                               <li>
 
@@ -111,10 +110,9 @@
                          interdum nulla, ut commodo diam libero <br> vitae erat. Aenean faucibus nibh et justo
                          curcus id rutrum lorem imperdiet</p>
 
-
                     <button
-                         class="rounded-sm  uppercase px-8 py-3 text-sm font-normal cursor-pointer tracking-wider bg-white bg-opacity-30 text-black hover:shadow-md lg:absolute right-12 top-60 mr-2">SHOP
-                         NOW</button>
+                         class="rounded-sm  uppercase px-8 py-3 text-sm font-normal cursor-pointer tracking-wider bg-white bg-opacity-30 text-black hover:shadow-md lg:absolute right-12 top-60 mr-2 hover:bg-blue-300 transition ease-in duration-100"
+                         type="submit">SHOP NOW</button>
 
 
                </div>
@@ -124,7 +122,7 @@
      <!-- Bestsellers Section -->
      <section class="mt-20">
           <div class="w-full flex flex-col items-center mx-auto justify-between gap-10">
-               <div class=" w-full md:w-[70%] text-xl">
+               <div class=" w-full text-center md:w-[70%]">
                     <div class="relative text-gray-400 flex gap-3 items-center justify-center w-full uppercase">
                          <div class="relative top-[-0.5rem]">____</div>
                          <h3 class="text-gray-800">Our Bestsellers</h3>
@@ -133,48 +131,53 @@
 
                     <h2 class="text-center w-[90%] sm:w-full mx-auto mt-4 font-semibold text-3xl">A difference you can
                          feel in your sole</h2>
-                    <p class="w-[90%] mx-auto mt-3 font-medium"">Nam imperdiet arcu velit, ut maximus mauris finibus ac. Proin non fringilla sapien. Pellentesque euismod a ligula vitae bibendum. Nulla facilisi. Praesent sed tortor Donec mollis ultrices dui, eu blandit dolor dapibus nec.</p>
-              </div>
+                    <p class="w-[80%] mx-auto mt-3 font-medium">Nam imperdiet arcu velit, ut maximus mauris finibus ac.
+                         Proin non fringilla sapien. Pellentesque euismod a ligula vitae bibendum. Nulla facilisi.
+                         Praesent sed tortor Donec mollis ultrices dui, eu blandit dolor dapibus nec.</p>
+               </div>
 
                <div class=" flex flex-col w-full py-2 items-center justify-center place-items-center gap-6">
-                    <div class="w-[90%] mx-auto md:grid grid-cols-2 mt-10 justify-center gap-12">
+                    <div class="w-[90%] mx-auto md:grid grid-cols-2 mt-10 justify-center gap-4">
                          <div class="mb-12">
-                              <img class="w-full" src="/Img/tops.jpeg" alt="">
-                              <p class="py-2">FS NIKE Premium Sports</p><span class="text-sm text-gray-400">$ 99.00 USD</span><span class="text-sm text-orange-300 line-through px-3">$ 198.00 USD</span>
+                              <a href="#">
+                                   <img class="w-[90%]" src="/Img/tops.png" alt="">
+                              </a>
+                              <p class="py-2">FS NIKE Premium Sports</p><span class="text-sm text-gray-400">$ 99.00
+                                   USD</span><span class="text-sm text-orange-300 line-through px-3">$ 198.00 USD</span>
                          </div>
                          <div class="mb-12">
-                              <img class="w-full mt-" src="/Img/kicks.jpeg" alt="">
-                              <p class="py-2">FS NIKE Premium Sports</p><span class="text-sm text-gray-400">$ 99.00 USD</span><span></span>
+                              <a href="#">
+                                   <img class="w-[90%] mt-" src="/Img/kicks.png" alt="">
+                              </a>
+                              <p class="py-2">FS NIKE Premium Sports</p><span class="text-sm text-gray-400">$ 99.00
+                                   USD</span><span></span>
                          </div>
                     </div>
 
-                    <div class="w-[90%] mx-auto md:grid grid-cols-2 justify-center gap-12">
+                    <div class="w-[90%] mx-auto md:grid grid-cols-2 justify-center gap-4">
                          <div class="mb-12">
-                              <img class="w-full" src="/Img/brogues.png" alt="">
-                              <p class="py-2">FS BROGUES</p><span class="text-gray-500 text-sm">$ 99.50 USD</span><span class="text-sm line-through text-orange-300 px-3">$ 199.00 USD</span>
+                              <a href="#">
+                                   <img class="w-[90%]" src="/Img/brogues.png" alt="">
+                              </a>
+                              <p class="py-2">FS BROGUES</p><span class="text-gray-500 text-sm">$ 99.50
+                                   USD</span><span class="text-sm line-through text-orange-300 px-3">$ 199.00
+                                   USD</span>
+
                          </div>
 
                          <div class="mb-12">
-                              <img class="w-full" src="/Img/Vans.webp" alt="">
-                              <p class="py-2">FS VANS Premium Sports</p><span class="text-sm text-gray-400">$ 134.50 USD</span><span class="px-3 text-sm line-through text-orange-300">$ 239.00 USD</span>
+                              <a href="#">
+                                   <img class="w-[90%]" src="/Img/Vans.png" alt="">
+                              </a>
+                              <p class="py-2">FS VANS Premium Sports</p><span class="text-sm text-gray-400">$
+                                   134.50
+                                   USD</span><span class="px-3 text-sm line-through text-orange-300">$ 239.00
+                                   USD</span>
+
                          </div>
                     </div>
 
-                    <div class="bg-cover bg-no-repeat py-72 bg-center w-full" style="background-image: url(/Img/addidas.png);">
-                         <div class="w-full text-white px-32 md:w-[55%]">
-                              <div class="relative top-[1rem] text-slate-400 text-opacity-60">______</div>
-                              <h2 class="text-slate-500 text-opacity-60 text-base px-20">SPRING SALES</h2>
-                             <h1 class="text-6xl py-6 text-slate-500 text-opacity-70">50% OFF!</h1>
-                             <p class="text-xl font-extralight text-gray-500 text-opacity-70 space-x-10">Suspendisse at ornare arcu. Suspensdisse potenti. Nam fermentum velit eu erat tincidunt, at consequat erat pulvinar. Nunc consequat sit amet metus sed ultrices.</p>
 
-                         </div>
-
-                         <div class="px-32 py-10">
-                              <button class="bg-gray-400 text-black font-semibold bg-opacity-50 tracking-widest cursor-pointer px-10 py-4 rounded-sm hover:shadow-2xl" type="submit">SHOP NOW</button>
-                         </div>
-
-                         
-                    </div>
                </div>
 
 
@@ -183,18 +186,97 @@
 
      <!-- SpringSale Section -->
      <section>
-          SpringSale
+          <div>
+               <div class="bg-cover bg-no-repeat py-72 bg-center w-full relative items-center"
+                    style="background-image: url(/Img/addidas.png);">
+                    <div class="w-full text-white px-32 md:w-[70%] lg:w-[60%] absolute top-4 sm:top-32 md:top-16">
+                         <div class="relative top-[1rem] text-slate-400 text-opacity-60">______</div>
+                         <h2 class="text-slate-500 text-opacity-60 text-base px-20">SPRING SALES</h2>
+                         <h1 class="text-6xl py-6 text-slate-500 text-opacity-70">50% OFF!</h1>
+                         <p class="text-xl font-extralight text-gray-500 text-opacity-95 space-x-10">Suspendisse at
+                              ornare arcu. Suspensdisse potenti. Nam fermentum velit eu tincidunt, at consequat
+                              pulvinar.</p>
+
+                    </div>
+
+                    <div class="px-32 py-10 relative">
+                         <button
+                              class="bg-white text-black font-semibold bg-opacity-50 tracking-widest cursor-pointer px-10 py-4 rounded-sm absolute top-72  sm:top-32 md:top-28 hover:shadow-2xl hover:bg-blue-50 transition ease-in duration-100"
+                              type=" submit">SHOP NOW</button>
+                    </div>
+
+
+               </div>
+          </div>
      </section>
 
      <!-- Shop by Category Section -->
-     <section>
-          Shop by Category
+     <section class="mt-20">
+          <div class="w-full flex flex-col items-center mx-auto justify-between gap-10">
+               <div class="w-full text-center md:w-[70%]">
+                    <div class="relative text-gray-400 flex gap-3 items-center justify-center w-full uppercase">
+                         <div class="relative top-[-0.5rem]">____</div>
+                         <h3 class="text-gray-800"> Shop by Category</h3>
+                         <div class="relative top-[-0.5rem]">____</div>
+                    </div>
+
+                    <h2 class="text-center w-[90%] sm:w-full mx-auto mt-4 font-semibold text-3xl">Get a new leap of
+                         comfortable</h2>
+                    <p class="w-[80%] mx-auto mt-3 font-medium">Nam imperdiet arcu velit, ut maximus mauris finibus ac.
+                         Proin non fringilla sapien. Pellentesque euismod a ligula vitae bibendum. Nulla facilisi.
+                         Praesent sed tortor Donec mollis ultrices dui, eu blandit dolor dapibus nec.</p>
+               </div>
+
+          </div>
+
+          <div class="w-[90%] py-16 mx-auto md:flex justify-center gap-10">
+               <div class="mb-10 md:w-[55%]">
+                    <a href="#">
+                         <img class="w-full" src="/Img/sports.jpeg" alt="">
+                         <div
+                              class=" text-center items-center border-2 border-gray-100 hover:shadow-lg transition ease-in duration-150">
+                              <h3 class="font-semibold text-base pt-6 pb-2">SPORTS</h3>
+                              <p class="text-sm pb-6 text-gray-800 tracking-wide">STARTING AT<span
+                                        class="text-orange-300 px-2">$ 134.50 USD</span></p>
+                         </div>
+                    </a>
+
+               </div>
+
+               <div class=" mb-10 md:w-[55%]">
+                    <a href="#">
+                         <img class="w-full" src="/Img/CASUALS.jpeg" alt="">
+                         <div
+                              class="text-center items-center border-2 border-gray-100 px-4 hover:shadow-lg transition ease-in duration-150">
+                              <h3 class="font-semibold text-base pt-6 pb-2">CASUALS</h3>
+                              <p class="text-sm pb-6 text-gray-800 tracking-wide">STARTING AT <span
+                                        class="text-orange-300 px-2">$ 269.00 USD</span> </p>
+                         </div>
+                    </a>
+
+               </div>
+
+               <div class=" md:w-[58%]">
+                    <a href="#">
+                         <img class="w-full" src="/Img/Sneakers2.jpg" alt="">
+                         <div
+                              class="text-center border-2 border-gray-100 px-4 hover:shadow-lg transition ease-in duration-150">
+                              <h3 class="font-semibold text-base pt-6 pb-2">SNEAKERS</h3>
+                              <p class="text-sm pb-6 text-gray-800 tracking-wider">STARTING AT <span
+                                        class="text-orange-300 px-2">$ 199.00 USD</span> </p>
+                         </div>
+                    </a>
+
+               </div>
+          </div>
+          </div>
+
      </section>
 
      <!-- Features Section -->
      <section class=" feature mt-20">
           <div class="w-full mx-auto flex flex-col gap-10 items-center justify-between">
-               <div class="w-full md:w-[70%]">
+               <div class="w-full text-center md:w-[70%]">
                     <div class="relative text-gray-400 flex gap-3 items-center justify-center w-full">
                          <div class="relative top-[-0.5rem]">____</div>
                          <h3 class="text-gray-800">FEATURES</h3>
@@ -203,7 +285,7 @@
                     <h2 class="w-[90%] sm:w-full mx-auto mt-3 font-semibold text-3xl text-center">Quality
                          Begins on the
                          inside</h2>
-                    <p class="w-[90%] mx-auto mt-4 font-medium">Lorem ipsum dolor sit amet consectetur,
+                    <p class="w-[80%] mx-auto mt-4 font-medium">Lorem ipsum dolor sit amet consectetur,
                          adipisicing
                          elit. Recusandae, excepturi! Beatae explicabo illum ullam numquam deleniti. Porro,
                          nostrum
@@ -231,6 +313,8 @@
      <section>
           Footer
      </section>
+
+     <script src="/index.js"></script>
 
 </body>
 
