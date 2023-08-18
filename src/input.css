@@ -22,3 +22,17 @@
     height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
+.offer-bg{
+    background: linear-gradient(#0b0c0b33,#0f0f0f9a),url(/Img/offer-img.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 50%;
+}
+.offer-bg-mobile{
+    background: linear-gradient(#0b0c0b33,#0f0f0f9a),url(/Img/offer-img-mobile.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 50%;
+}
